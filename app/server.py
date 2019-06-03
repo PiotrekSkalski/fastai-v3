@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1SKtwV4zbu813CiIWSndIJPilXDtTVR2g'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1sDCH-wLeWuC2I0-PSnD4r-D0wHJjpTeG'
 export_file_name = 'export.pkl'
 
 classes = ['toad', 'tree_frog']
