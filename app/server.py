@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1--pBux-ElgTTjWZa3AvJSWIvJ_bzUIVr'
-export_file_name = 'export_faces2.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1hMNyTHh-_RYyuNXE6cpUoKiwinMOEOoT'
+export_file_name = 'export_fer2013.pkl'
 
 classes = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 path = Path(__file__).parent
